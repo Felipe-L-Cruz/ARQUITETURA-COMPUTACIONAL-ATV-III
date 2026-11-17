@@ -1,12 +1,12 @@
-# 🧩 Cruzadinha de Arquitetura Computacional
+#  Cruzadinha de Arquitetura Computacional
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 A **Cruzadinha de Arquitetura Computacional** é um jogo educativo desenvolvido como atividade avaliativa da disciplina de Arquitetura Computacional — Sprint 3.
 
 O objetivo é reforçar o aprendizado dos principais conceitos relacionados à arquitetura e ao funcionamento dos computadores. O jogador deverá interpretar pistas sobre componentes, memórias, barramentos e tecnologias computacionais e preencher corretamente as palavras no tabuleiro.
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Reforçar o conhecimento sobre os conceitos de Arquitetura Computacional.
 - Desenvolver o raciocínio lógico por meio de uma atividade interativa.
@@ -14,7 +14,7 @@ O objetivo é reforçar o aprendizado dos principais conceitos relacionados à a
 - Praticar o versionamento de código com Git e GitHub.
 - Publicar uma aplicação web utilizando o GitHub Pages.
 
-## 🎮 Como jogar
+## Como jogar
 
 1. Acesse o jogo pelo link disponibilizado na seção [Publicação](#-publicação).
 2. Leia as pistas organizadas nas categorias **Horizontais** e **Verticais**.
@@ -31,7 +31,7 @@ O objetivo é reforçar o aprendizado dos principais conceitos relacionados à a
 - Cada palavra possui uma numeração correspondente à sua pista.
 - As palavras devem se cruzar com pelo menos uma outra palavra.
 
-## 📚 Conteúdo abordado
+## Conteúdo abordado
 
 A atividade contempla pelo menos 12 dos 16 conceitos disponibilizados para a cruzadinha:
 
@@ -54,49 +54,13 @@ A atividade contempla pelo menos 12 dos 16 conceitos disponibilizados para a cru
 | 15 | Dual Core |
 | 16 | Quad Core |
 
-## 🛠️ Tecnologias e ferramentas
-
-- **HTML5:** estrutura e organização dos elementos da página.
-- **CSS3:** estilização, layout e identidade visual do jogo.
-- **JavaScript:** lógica da cruzadinha, interação com o tabuleiro, validação das respostas e pontuação.
-- **Git:** controle de versão do projeto.
-- **GitHub:** hospedagem e gerenciamento do código-fonte.
-- **GitHub Pages:** publicação e acesso ao jogo pela internet.
-
-## 📂 Estrutura do projeto
-
-```text
-ARQUITETURA-COMPUTACIONAL-ATV-III/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-## 🚀 Como executar localmente
-
-O projeto utiliza HTML, CSS e JavaScript puros, sem necessidade de instalar frameworks ou dependências.
+## Como executar localmente
 
 1. Clone este repositório:
-   ```bash
    git clone https://github.com/Felipe-L-Cruz/ARQUITETURA-COMPUTACIONAL-ATV-III.git
    ```
 2. Abra a pasta do projeto no Visual Studio Code.
+   
 3. Abra o arquivo `index.html` no navegador ou utilize a extensão Live Server.
-
-## 🌐 Publicação
-
-O jogo será publicado por meio do **GitHub Pages**.
-
-**Link de acesso:** será adicionado após a publicação.
-
-## 👨‍💻 Desenvolvimento
-
-Projeto desenvolvido como parte da **Atividade Avaliativa III — Game**, da disciplina de Arquitetura Computacional, Sprint 3.
-
-**Repositório:** [ARQUITETURA-COMPUTACIONAL-ATV-III](https://github.com/Felipe-L-Cruz/ARQUITETURA-COMPUTACIONAL-ATV-III)
-
----
 
 *Projeto educacional desenvolvido para reforçar os conceitos de Arquitetura Computacional por meio de uma atividade interativa.*

@@ -1,0 +1,103 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f1f3f5;
+color: #243447;
+}
+
+header {
+background-color: #243447;
+color: white;
+text-align: center;
+padding: 30px;
+}
+
+header h1 {
+font-size: 30px;
+}
+
+
+main {
+width: 90%;
+max-width: 1100px;
+margin: 30px auto;
+padding: 25px;
+background-color: white;
+border-radius: 12px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section {
+margin-bottom: 25px;
+}
+
+section h2 {
+margin-bottom: 15px;
+}
+
+
+#cruzadinha {
+min-height: 350px;
+background-color: #e9eef3;
+border: 2px dashed #9ca3af;
+border-radius: 8px;
+padding: 15px;
+}
+
+
+.pistas {
+background-color: #f8fafc;
+padding: 20px;
+border-radius: 8px;
+}
+
+.pistas h3 {
+    
+margin: 15px 0 10px;
+}
+
+.pistas ol {
+padding-left: 25px;
+}
+
+.pistas li {
+margin-bottom: 10px;
+}
+
+/* Pontuação */
+main p {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+
+button {
+border: none;
+padding: 12px 20px;
+margin-right: 8px;
+border-radius: 6px;
+background-color: #2563eb;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #1d4ed8;
+}
+
+
+#btn-reiniciar {
+background-color: #64748b;
+}
+
+#btn-reiniciar:hover {
+background-color: #475569;
+}

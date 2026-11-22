@@ -16,7 +16,7 @@ O objetivo é reforçar o aprendizado dos principais conceitos relacionados à a
 
 ## Como jogar
 
-1. Acesse o jogo pelo link disponibilizado na seção [Publicação](#-publicação).
+1. Acesse o jogo pelo link disponibilizado https://felipe-l-cruz.github.io/ARQUITETURA-COMPUTACIONAL-ATV-III/
 2. Leia as pistas organizadas nas categorias **Horizontais** e **Verticais**.
 3. Identifique a palavra correspondente a cada pista.
 4. Digite as letras diretamente nas casas do tabuleiro.
@@ -26,7 +26,7 @@ O objetivo é reforçar o aprendizado dos principais conceitos relacionados à a
 
 ### Regras
 
-- As respostas devem ser preenchidas diretamente no tabuleiro.
+- Você deve cliclar nas perguntas para ser direcionando.
 - As palavras devem ser inseridas sem espaços e sem acentos.
 - Cada palavra possui uma numeração correspondente à sua pista.
 - As palavras devem se cruzar com pelo menos uma outra palavra.

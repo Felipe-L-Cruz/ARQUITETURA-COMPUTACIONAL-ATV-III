@@ -51,26 +51,48 @@ padding: 15px;
 }
 
 
+/* Organização do tabuleiro e das pistas */
+.jogo {
+display: flex;
+gap: 25px;
+align-items: flex-start;
+}
+
+.tabuleiro {
+flex: 2;
+min-width: 0;
+}
+
+
 .pistas {
-background-color: #f8fafc;
-padding: 20px;
-border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    background-color: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.pistas h2 {
+    margin-bottom: 12px;
 }
 
 .pistas h3 {
-    
-margin: 15px 0 10px;
-}
-
-.pistas ol {
-padding-left: 25px;
+    margin: 10px 0;
+    color: #2563eb;
 }
 
 .pistas li {
-margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
-/* Pontuação */
+.pistas li:hover {
+    color: #2563eb;
+}
+
+
 main p {
 font-size: 18px;
 font-weight: bold;
@@ -100,4 +122,59 @@ background-color: #64748b;
 
 #btn-reiniciar:hover {
 background-color: #475569;
+}
+
+
+#cruzadinha {
+display: grid;
+gap: 2px;
+justify-content: start;
+overflow-x: auto;
+}
+
+
+#cruzadinha {
+display: grid;
+gap: 2px;
+justify-content: start;
+overflow-x: auto;
+background-color: white;
+border-radius: 8px;
+padding: 10px;
+}
+
+.celula {
+width: 35px;
+height: 35px;
+border: 1px solid #64748b;
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: bold;
+color: #243447;
+}
+
+.celula:not(.ativa) {
+visibility: hidden;
+}
+
+.celula.ativa {
+visibility: visible;
+background-color: #ffffff;
+color: #243447;
+border: 1px solid #64748b;
+}
+
+.celula.ativa:focus {
+background-color: #bfdbfe;
+border: 2px solid #2563eb;
+}
+
+.celula.correta {
+background-color: #bbf7d0;
+}
+
+
+.celula.incorreta {
+background-color: #fecaca;
 }
